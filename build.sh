@@ -55,8 +55,8 @@ build_main(){
 main(){
     build_main x86_64-unknown-linux-musl ${appname}.linux.x64
 
-    # build_main aarch64-unknown-linux-musl ${appname}.linux.arm64
-    build_main aarch64-unknown-linux-gnu ${appname}.linux.arm64
+    build_main aarch64-unknown-linux-musl ${appname}.linux.arm64
+    # build_main aarch64-unknown-linux-gnu ${appname}.linux.arm64
 
     # build_main armv7-unknown-linux-musleabi ${appname}.linux.armv7
     build_main armv7-unknown-linux-musleabihf ${appname}.linux.armv7hf
